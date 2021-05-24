@@ -1,11 +1,18 @@
-import React from 'react';
+import React from 'react'
+import { Container, Divider } from 'semantic-ui-react'
+
 
 class Footer extends React.Component {
 
   render(){
     return (
       <div> 
-          © Lisa McGerr 2021  (github link) (linkedin link)
+        <Container textAlign='justified'>
+            <Divider />
+            <p>
+            © Lisa McGerr 2021  (github link) (linkedin link)
+            </p>
+        </Container>
       </div>
     )
   }
