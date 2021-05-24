@@ -7,20 +7,24 @@ class Navbar extends React.Component {
   render(){
     return (
       <div>  
-        <Menu className='navbar' secondary >
+        <Menu size='large' className='navbar' secondary >
             <Menu.Item
-              name='Lisa McGerr'/>
+              name='Lisa McGerr'
+              position='left'/>
           <Link to="/about">
             <Menu.Item
-              name='About'/>
+              name='About'
+              position='right'/>
           </Link>
           <Link to="/projects">
             <Menu.Item
-              name='Portfolio'/>
+              name='Portfolio'
+              position='right'/>
           </Link>
           <Link to="/contact">
             <Menu.Item
-              name='Contact'/>
+              name='Contact'
+              position='right'/>
           </Link>
         </Menu>
       </div>
