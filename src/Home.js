@@ -4,7 +4,8 @@ class Home extends React.Component {
 
   render(){
     return (
-      <div>   
+      <div>  
+        background image spanning and Lisa McGerr with image and Web Developer title 
       </div>
     )
   }

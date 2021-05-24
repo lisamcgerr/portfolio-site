@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
 import About from './About'
+import Contact from './Contact'
 
 class App extends React.Component {
 
@@ -11,6 +12,7 @@ class App extends React.Component {
         <Navbar />
         This is the app component
         <About />
+        <Contact />
         <Footer />
       </div>
     )
