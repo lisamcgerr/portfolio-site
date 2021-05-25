@@ -6,8 +6,8 @@ class Navbar extends React.Component {
 
   render(){
     return (
-      <div>  
-        <Menu size='large' className='navbar' secondary >
+      <div className='navbar-container'>  
+        <Menu size='large' className='navbar-container' secondary >
             <Menu.Item
               name='Lisa McGerr'
               position='left'/>

@@ -9,17 +9,16 @@ class Footer extends React.Component {
 
   render(){
     return (
-      <div> 
-        <Container textAlign='justified'>
-            <Divider />
+
+        <Container fluid>
+          <Divider fluid />
             <h1>
-            © Lisa McGerr 2021
+                   © Lisa McGerr 2021
             <a href='https://github.com/lisamcgerr' target='blank'><DiGithubBadge /></a>
             <a href='https://www.linkedin.com/in/lisamariemcgerr/' target='blank' ><FaLinkedin /></a>
-
             </h1>
         </Container>
-      </div>
+
     )
   }
 }

@@ -7,8 +7,9 @@ class About extends React.Component {
   render(){
     return (
       <div>
-        <Container textAlign='justified'>
-            <h1>Who am I?</h1>
+        <Container fluid textAlign='center'>
+          <br></br>
+            <h1>About Me</h1>
             <Divider />
             <h3>
                 Let's build something great together!

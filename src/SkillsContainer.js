@@ -8,18 +8,18 @@ class SkillsContainer extends React.Component {
 
   renderSkills = () => {
     const skills = [
-      <DiRuby />,  
-      <DiReact />,
-      <SiRedux />,
-      <DiJavascript1 />, 
-      <DiRor />, 
-      <DiVisualstudio />, 
-      <DiTerminal />, 
-      <DiSqllite />, 
-      <DiGithubBadge />, 
-      <DiCss3 />,
-      <DiHtml5 />, 
-      <DiBootstrap />,
+      <DiRuby size={150} />,  
+      <DiReact size={150} />,
+      <SiRedux size={150} />,
+      <DiJavascript1 size={150} />, 
+      <DiRor size={150} />, 
+      <DiVisualstudio size={150} />, 
+      <DiTerminal size={150} />, 
+      <DiSqllite size={150} />, 
+      <DiGithubBadge size={150} />, 
+      <DiCss3 size={150} />,
+      <DiHtml5 size={150} />, 
+      <DiBootstrap size={150} />,
     ]
     return skills.map(skillIcon => (
         <SkillsCard 
@@ -31,12 +31,10 @@ class SkillsContainer extends React.Component {
 
   render(){
     return (
-      <div>
-        <h1>Skills</h1>
-        <Grid container spacing={3} textAlign='center'>
-          {this.renderSkills()}
+        <Grid container textAlign='center'>
+          <Grid item textAlign='center' xs={12}><h1>Skills</h1><br></br></Grid>
+            {this.renderSkills()}
         </Grid>
-      </div>
     )
   }
 }

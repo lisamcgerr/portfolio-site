@@ -13,11 +13,11 @@ class Contact extends React.Component {
           <Form>
             <Form.Field>
               <label>Full Name:</label >
-              <input placeholder='Full Name:' />
+              <input icon='user' placeholder='Full Name:' />
             </Form.Field>
             <Form.Field>
               <label>Email Address:</label>
-              <input placeholder='Email Address:' />
+              <input icon='mail' placeholder='Email Address:' />
             </Form.Field>
             <Form.TextArea label='Message:' placeholder='Message...' />
             <Button type='submit'>Submit</Button>
