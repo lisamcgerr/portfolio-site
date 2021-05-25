@@ -1,8 +1,10 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid'
+//import Grid from '@material-ui/core/Grid'
 import SkillsCard from './SkillsCard'
 import { DiRuby, DiReact, DiJavascript1, DiRor, DiVisualstudio, DiTerminal, DiSqllite, DiGithubBadge, DiCss3, DiBootstrap, DiHtml5 } from "react-icons/di"
 import { SiRedux } from 'react-icons/si'
+import { Grid } from 'semantic-ui-react'
+
 
 class SkillsContainer extends React.Component {
 
@@ -31,8 +33,8 @@ class SkillsContainer extends React.Component {
 
   render(){
     return (
-        <Grid container textAlign='center'>
-          <Grid item textAlign='center' xs={12}><h1>Skills</h1><br></br></Grid>
+        <Grid centered textAlign='center' style={{ height: '100vh' }} verticalAlign='top' >
+          <Grid centered item textAlign='center' xs={12}><br></br></Grid>
             {this.renderSkills()}
         </Grid>
     )

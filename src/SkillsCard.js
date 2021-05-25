@@ -6,7 +6,7 @@ class SkillsCard extends React.Component {
   render(){
     return (
         <Grid textAlign='center' item xs={3}>
-          {this.props.skillIcon}
+          <br></br>{this.props.skillIcon}
         </Grid>
     )
   }
