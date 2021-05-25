@@ -13,13 +13,13 @@ class SkillsContainer extends React.Component {
       <SiRedux size={150} />,
       <DiJavascript1 size={150} />, 
       <DiRor size={150} />, 
-      <DiVisualstudio size={150} />, 
-      <DiTerminal size={150} />, 
+      <DiHtml5 size={150} />, 
       <DiSqllite size={150} />, 
       <DiGithubBadge size={150} />, 
       <DiCss3 size={150} />,
-      <DiHtml5 size={150} />, 
       <DiBootstrap size={150} />,
+      <DiVisualstudio size={150} />, 
+      <DiTerminal size={150} />
     ]
     return skills.map(skillIcon => (
         <SkillsCard 

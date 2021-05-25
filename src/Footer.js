@@ -14,8 +14,8 @@ class Footer extends React.Component {
           <Divider fluid />
             <h1>
                    © Lisa McGerr 2021
-            <a href='https://github.com/lisamcgerr' target='blank'><DiGithubBadge /></a>
-            <a href='https://www.linkedin.com/in/lisamariemcgerr/' target='blank' ><FaLinkedin /></a>
+            <a href='https://github.com/lisamcgerr' target='blank'><DiGithubBadge size={55}/></a>
+            <a href='https://www.linkedin.com/in/lisamariemcgerr/' target='blank' ><FaLinkedin size={50} /></a>
             </h1>
         </Container>
 
