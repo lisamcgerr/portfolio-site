@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <div>
         <Navbar />
-          <Image className='cooking-image' src='https://user-images.githubusercontent.com/73184313/119396283-48f60400-bc9a-11eb-8be4-47b0565885de.jpg' width='100%' paddingTop='10' />
+          <Image className='cooking-image' src='https://user-images.githubusercontent.com/73184313/119523008-0851c580-bd42-11eb-94b8-38f3ea264b78.png' width='100%' paddingTop='10' />
             <Switch>
               <Route exact path='/about' component={About} />
               <Route exact path='/contact' component={Contact} />
