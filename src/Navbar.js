@@ -21,6 +21,11 @@ class Navbar extends React.Component {
               name='Portfolio'
               position='right'/>
           </Link>
+          <Link to="/skills">
+            <Menu.Item
+              name='Skills'
+              position='right'/>
+          </Link>
           <Link to="/contact">
             <Menu.Item
               name='Contact'

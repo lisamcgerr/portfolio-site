@@ -22,12 +22,13 @@ class App extends React.Component {
               <Route exact path='/about' component={About} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/projects' component={ProjectContainer} />
+              <Route exact path='/skills' component={SkillsContainer} />
               <Route exact path='/' component={Home} />
             </Switch>   
               <Grid container spacing={3}>
-                <About />
+                {/* <About />
                 <SkillsContainer />
-                <Contact />
+                <Contact /> */}
                 <Footer />
               </Grid>
       </div>
