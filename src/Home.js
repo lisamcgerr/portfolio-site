@@ -1,5 +1,7 @@
 import React from 'react'
 import { Image } from 'semantic-ui-react'
+import Grid from '@material-ui/core/Grid'
+
 
 class Home extends React.Component {
 
