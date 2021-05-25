@@ -6,7 +6,7 @@ class Contact extends React.Component {
   render(){
 
     return (
-      <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='top' >  
+      <Grid textAlign='center' style={{ height: '50vh' }} verticalAlign='top' >  
         <Grid.Column style={{ maxWidth: 550 }}>
           <br></br>
           <h1>Let's Connect!</h1>
