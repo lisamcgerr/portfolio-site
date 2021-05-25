@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Menu } from 'semantic-ui-react'
+import { DiGithubBadge } from "react-icons/di";
+import { FaLinkedin } from "react-icons/fa"
+import { GrMedium } from 'react-icons/gr'
+import { SiGmail } from 'react-icons/si'
 
 class Navbar extends React.Component {
 

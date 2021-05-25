@@ -1,5 +1,4 @@
 import React from 'react'
-//import Grid from '@material-ui/core/Grid'
 import SkillsCard from './SkillsCard'
 import { DiRuby, DiReact, DiJavascript1, DiRor, DiVisualstudio, DiTerminal, DiSqllite, DiGithubBadge, DiCss3, DiBootstrap, DiHtml5 } from "react-icons/di"
 import { SiRedux } from 'react-icons/si'
