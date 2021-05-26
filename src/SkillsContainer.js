@@ -9,7 +9,7 @@ class SkillsContainer extends React.Component {
 
   renderSkills = () => {
     const skills = [
-      <DiRuby size={150} />,  
+      <DiRuby style={{color: 'red'}} size={150} />,  
       <DiReact size={150} />,
       <SiRedux size={150} />,
       <DiJavascript1 size={150} />, 
