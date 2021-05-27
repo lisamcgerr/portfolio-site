@@ -10,22 +10,18 @@ class Footer extends React.Component {
 
   render(){
     return (
-      <Grid centered textAlign='center' style={{ height: '10vh' }} verticalAlign='top' >
+      // <Grid centered textAlign='center' style={{ height: '10vh' }} verticalAlign='top' >
         <Container textAlign='center' fluid>
           <Divider />
-            <h1 className='lisa-footer'>
+            <p className='lisa-footer'>
               Copyright © Lisa McGerr 2021. All Rights Reserved. 
-            </h1>
-            <h1>
               <a href='https://github.com/lisamcgerr' target='blank'><DiGithubBadge size={55}/></a>
               <a href='https://www.linkedin.com/in/lisamariemcgerr/' target='blank' ><FaLinkedin size={50} /></a>
               <a href='https://lisamcgerr.medium.com/' target='blank'><GrMedium size={50} /></a>
               <a href='mailto:lisamarie.mcgerr@gmail.com' target='blank'><SiGmail size={50} /></a>
-            </h1>
-            <br></br>
-         
+            </p>
         </Container>
-      </Grid>
+      // </Grid>
     )
   }
 }

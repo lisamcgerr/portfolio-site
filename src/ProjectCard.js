@@ -1,5 +1,6 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid'
+import { Card, Placeholder } from 'semantic-ui-react'
+//import Grid from '@material-ui/core/Grid'
 
 
 class ProjectCard extends React.Component {
@@ -7,7 +8,29 @@ class ProjectCard extends React.Component {
   render(){
     return (
       <div>  
-          ProjectCard 
+          <Card.Group itemsPerRow={3}>
+            <Card>
+              <Card.Content>
+                <Placeholder>
+                  <Placeholder.Image rectangular />
+                </Placeholder>
+              </Card.Content>
+            </Card>
+            <Card>
+              <Card.Content>
+                <Placeholder>
+                  <Placeholder.Image rectangular />
+                </Placeholder>
+              </Card.Content>
+            </Card>
+            <Card>
+              <Card.Content>
+                <Placeholder>
+                  <Placeholder.Image rectangular />
+                </Placeholder>
+              </Card.Content>
+            </Card>
+          </Card.Group>
       </div>
     )
   }
