@@ -14,8 +14,8 @@ class ProjectCard extends React.Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://user-images.githubusercontent.com/73184313/119858466-1d615c80-beda-11eb-8de2-89b3edee48d1.png"
-                  alt="First slide"
+                  src="https://user-images.githubusercontent.com/73184313/120459304-b0c4e280-c35d-11eb-8e95-b7c4ac02bd5e.png"
+                  alt="Cooking with Friends Login page"
                   width="1000px"
                 />
                 <Carousel.Caption>
@@ -26,8 +26,8 @@ class ProjectCard extends React.Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://user-images.githubusercontent.com/73184313/120422746-8a3b8300-c32e-11eb-9418-d807f3e8bcde.png"
-                  alt="Whirlpool"
+                  src="https://user-images.githubusercontent.com/73184313/120459478-d94cdc80-c35d-11eb-9688-599a12bcee65.png"
+                  alt="Whirlpool home page"
                   width="1000px"
                 />
 

@@ -9,7 +9,7 @@ class SkillsContainer extends React.Component {
 
   renderSkills = () => {
     const skills = [
-      <DiRuby className='hover' style={{color: '#cc0000'}} size={150} />,  
+      <DiRuby className='hover' style={{color: '#cc0000'}} size={150}pacity={.7}  />,  
       <DiReact className='hover' style={{color: '#61dbfb'}} size={150}  />,
       <SiRedux className='hover' style={{color: '#764abc'}} size={150}  />,
       <DiJavascript1 className='hover' style={{color: '#f0db4f'}} size={150}  />, 
@@ -20,7 +20,7 @@ class SkillsContainer extends React.Component {
       <DiCss3 className='hover' style={{color: '2965f1'}} size={150}  />,
       <DiBootstrap className='hover' style={{color: '#944dff'}} size={150}  />,
       <DiVisualstudio className='hover' style={{color: '#0078d7'}} size={150}  />, 
-      <DiTerminal className='hover' style={{color: '#4d4d4d'}} size={150}  />
+      <DiTerminal className='hover' style={{color: '#4d4d4d'}} size={150} opacity={.7}  />
     ]
     return skills.map(skillIcon => (
         <SkillsCard 
