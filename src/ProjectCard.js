@@ -20,33 +20,23 @@ class ProjectCard extends React.Component {
                 />
                 <Carousel.Caption>
                   <h3>Cooking with Friends</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  <p>A Ruby on Rails, React and Redux full stack app that allows users to virtually create cooking classes with other users</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="holder.js/800x400?text=Second slide&bg=282c34"
-                  alt="Second slide"
+                  src="https://user-images.githubusercontent.com/73184313/120422746-8a3b8300-c32e-11eb-9418-d807f3e8bcde.png"
+                  alt="Whirlpool"
+                  width="1000px"
                 />
 
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <h3>Whirlpool</h3>
+                  <p>A Ruby on Rails app that allows users to find community around games</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="holder.js/800x400?text=Third slide&bg=20232a"
-                  alt="Third slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
+            
             </Carousel>
           </Grid.Column>
         </Grid>
