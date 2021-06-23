@@ -8,7 +8,7 @@ class ProjectContainer extends React.Component {
   render(){
     return (
       <div>  
-        <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='top' >  
+        <Grid container textAlign='center' style={{ height: '100vh' }} verticalAlign='top' >  
           <ProjectCard />
         </Grid>
       </div>
