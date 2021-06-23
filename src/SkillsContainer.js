@@ -13,8 +13,8 @@ class SkillsContainer extends React.Component {
 
   renderSkills = () => {
     const skills = [
-      <DiRuby className='hover' style={{color: '#cc0000'}} size={150}pacity={.7} onMouseOver={this.mouseHover} />,  
-      <DiReact className='hover' style={{color: '#61dbfb'}} size={150} onMouseOver={this.mouseHover} />,
+      <DiRuby className='ruby' style={{color: '#cc0000'}} size={150}pacity={.7} onMouseOver={this.mouseHover} />,  
+      <DiReact className='hoverReact' style={{color: '#61dbfb'}} size={150} onMouseOver={this.mouseHover} />,
       <SiRedux className='hover' style={{color: '#764abc'}} size={150} onMouseOver={this.mouseHover} />,
       <DiJavascript1 className='hover' style={{color: '#f0db4f'}} size={150}  onMouseOver={this.mouseHover} />, 
       <DiRor className='hover' style={{color: '#cc0000'}} size={150} onMouseOver={this.mouseHover}  />, 
