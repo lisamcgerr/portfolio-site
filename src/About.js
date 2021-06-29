@@ -10,9 +10,7 @@ class About extends React.Component {
           <br></br>
             <h1>About Me</h1>
             <Divider />
-            <h3>
-                Let's build something great together!
-            </h3>
+              <h2>Let's build something great together!</h2>
             <p>
                 An energetic Full-Stack Software Developer emerging from a 10+ year 
                 career in the customer service and hospitality industries. 
