@@ -5,6 +5,7 @@ import Footer from './Footer'
 import About from './About'
 import Contact from './Contact'
 import Home from './Home'
+import Resume from './Resume'
 import SkillsContainer from './SkillsContainer'
 import ProjectContainer from './ProjectContainer'
 import { Image } from 'semantic-ui-react'
@@ -23,6 +24,7 @@ class App extends React.Component {
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/projects' component={ProjectContainer} />
               <Route exact path='/skills' component={SkillsContainer} />
+              <Route exact path='/resume' component={Resume} />
               <Route exact path='/' component={Home} />
             </Switch>   
               <Grid container spacing={3}>
