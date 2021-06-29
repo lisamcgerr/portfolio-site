@@ -20,7 +20,7 @@ class ProjectCard extends React.Component {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
               </iframe>
-                <strong>A Ruby on Rails, React and Redux full stack astrongp that allows users to virtually create cooking classes with other users</strong>
+                <strong>A Ruby on Rails, React and Redux full stack that allows users to virtually create cooking classes with other users</strong>
                   <ul textAlign='left'>
                     <li>Integrated JSON Web Tokens and localStorage to store encrypt and persist client-side information</li>
                     <li>Built an API utilizing Rails Serializers to structure backend data</li>
