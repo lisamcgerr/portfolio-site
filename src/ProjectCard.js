@@ -9,23 +9,30 @@ class ProjectCard extends React.Component {
     return (
       <> 
         <Grid item textAlign='center' xs={6}>
-          <img
-            className="d-block w-100"
-            src="https://user-images.githubusercontent.com/73184313/120459304-b0c4e280-c35d-11eb-8e95-b7c4ac02bd5e.png"
-            alt="Cooking with Friends Login page"
-            width="700px"
-          />
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/WSbX3-Bpv0I" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
             <h3>Cooking with Friends</h3>
             <p>A Ruby on Rails, React and Redux full stack app that allows users to virtually create cooking classes with other users</p> 
         </Grid>
         
         <Grid item textAlign='center' xs={6}>
-          <img
-            className="d-block w-100"
-            src="https://user-images.githubusercontent.com/73184313/120459478-d94cdc80-c35d-11eb-9688-599a12bcee65.png"
-            alt="Whirlpool home page"
-            width="700px"
-          />
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/1SaYnOCLOGQ" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+
             <h3>Whirlpool</h3>
             <p>A Ruby on Rails app that allows users to find community around games</p> 
         </Grid>
