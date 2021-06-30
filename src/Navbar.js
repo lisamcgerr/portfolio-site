@@ -31,11 +31,11 @@ class Navbar extends React.Component {
               name='Resume'
               position='right'/>
           </a>
-          <Link to="/contact">
+          {/* <Link to="/contact">
             <Menu.Item
               name='Contact'
               position='right'/>
-          </Link>
+          </Link> */}
         </Menu>
       </div>
     )

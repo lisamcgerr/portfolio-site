@@ -5,9 +5,11 @@ class SkillsCard extends React.Component {
 
   render(){
     return (
+      
         <Grid className='skills-div'   item xs={3}>
           <br></br>{this.props.skillIcon}
         </Grid>
+      
     )
   }
 }

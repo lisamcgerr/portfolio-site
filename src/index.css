@@ -19,3 +19,11 @@ code {
 .ruby:hover {
   color: black;
 }
+
+.links {
+  padding: 15px;
+}
+
+.projects {
+  padding-top: 25px;
+}
