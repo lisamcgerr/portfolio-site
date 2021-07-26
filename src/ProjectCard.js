@@ -20,12 +20,12 @@ class ProjectCard extends React.Component {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
               </iframe>
-                <strong>A Ruby on Rails, React and Redux full stack that allows users to virtually create cooking classes with other users</strong>
-                  <ul textAlign='left'>
-                    <li>Integrated JSON Web Tokens and localStorage to store encrypt and persist client-side information</li>
-                    <li>Built an API utilizing Rails Serializers to structure backend data</li>
-                    <li>Utilized Redux and React to store frontend state across components</li>
-                    <li>Incorporated Semantic UI for clean and organized styling</li>
+                <strong class='project-title'>A Ruby on Rails, React and Redux full stack app that allows users to virtually create cooking classes with other users</strong>
+                  <ul>
+                    <li class='cards'>Integrated JSON Web Tokens and localStorage to store encrypt and persist client-side information</li>
+                    <li class='cards'>Built an API utilizing Rails Serializers to structure backend data</li>
+                    <li class='cards'>Utilized Redux and React to store frontend state across components</li>
+                    <li class='cards'>Incorporated Semantic UI for clean and organized styling</li>
                   </ul> 
         </Grid>
         
@@ -41,11 +41,11 @@ class ProjectCard extends React.Component {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
               </iframe>
-                <strong>A Ruby on Rails app that allows users to find community around games</strong> 
-                  <ul textAlign='left'>
-                    <li>Utilized session cookies and Bcrypt to store user data for secure log-in </li>
-                    <li>Implemented Active Storage to enable profile picture uploads</li>
-                    <li>Installed Active Record validations to ensure the validity of data stored to database and client-side</li>
+                <strong class='project-title'>A Ruby on Rails app that allows users to find community around games</strong> 
+                  <ul>
+                    <li class='cards'>Utilized session cookies and Bcrypt to store user data for secure log-in </li>
+                    <li class='cards'>Implemented Active Storage to enable profile picture uploads</li>
+                    <li class='cards'>Installed Active Record validations to ensure the validity of data stored to database and client-side</li>
                   </ul> 
         </Grid>
       </>
