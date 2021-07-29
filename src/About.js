@@ -6,7 +6,7 @@ class About extends React.Component {
   render(){
     return (
       <div>
-        <Container fluid textAlign='center' style={{ height: '80vh' }} >
+        <Container fluid textAlign='center' style={{ height: '100%' }} >
           <br></br>
             <h1>About Me</h1>
             <Divider />
