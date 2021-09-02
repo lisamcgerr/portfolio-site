@@ -5,7 +5,7 @@ class Resume extends React.Component{
     render(){
         return(
             <div textAlign='center'>
-                <Grid container textAlign='center' style={{ height: '120vh' }} verticalAlign='top' >  
+                <Grid container textAlign='center' style={{ height: '130vh' }} verticalAlign='top' >  
                     {/* <br></br>
                     <br></br>
                         <embed src='https://docs.google.com/document/d/1_9YDqVM7wcGTC1GzjV8YC4-rnPHrKyu1xgePjK8s-pE/export?format=pdf' width='100%'  height='1px'/>
