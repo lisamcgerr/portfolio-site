@@ -37,7 +37,7 @@ class SkillsContainer extends React.Component {
   render(){
     return (
         <Grid centered textAlign='center' style={{ height: '100%' }} verticalAlign='top' class='projects' >
-          <Grid class='skills' centered item textAlign='center' xs={12}><br></br></Grid>
+          <Grid class='skills' centered item textAlign='center' xs={12}><br/></Grid>
             {this.renderSkills()}
         </Grid>
     )

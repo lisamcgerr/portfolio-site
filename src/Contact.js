@@ -3,9 +3,7 @@ import { Button, Form, Grid } from 'semantic-ui-react'
 import { Divider } from 'semantic-ui-react'
 
 class Contact extends React.Component {
-
   render(){
-
     return (
       <div>
         <Grid textAlign='center' style={{ height: '50vh' }} verticalAlign='top' >  

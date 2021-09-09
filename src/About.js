@@ -7,15 +7,12 @@ class About extends React.Component {
     return (
       <div>
         <Container fluid textAlign='center' style={{ height: '100%' }} >
-          <br></br>
+          <br />
             <h1>About Me</h1>
             <Divider />
               <h2>Let's build something great together!</h2>
             <iframe textAlign='center' width="800" height="450" src="https://www.youtube.com/embed/cJh1kPJiEp8" title="About Lisa McGerr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <br></br>
-              <ul>
-                <li></li>
-              </ul>
+              <br />
         </Container>
       </div>
     )

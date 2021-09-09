@@ -5,7 +5,7 @@ class ProjectContainer extends React.Component {
 
   render(){
     return (
-      <div>  
+      <div className='project-container'>  
         <ProjectCard />
       </div>
     )
