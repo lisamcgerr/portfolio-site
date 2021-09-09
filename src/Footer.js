@@ -4,7 +4,6 @@ import { DiGithubBadge } from "react-icons/di";
 import { FaLinkedin } from "react-icons/fa"
 import { GrMedium } from 'react-icons/gr'
 import { SiGmail } from 'react-icons/si'
-import { Grid } from 'semantic-ui-react'
 
 class Footer extends React.Component {
 
